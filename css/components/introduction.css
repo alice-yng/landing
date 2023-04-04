@@ -1,0 +1,19 @@
+.introduction {
+	width: 900px;
+	margin: 0px auto;
+}
+
+.logo {
+	display:flex;
+	margin: 10px auto;
+	width: 350px;
+	height: 350px;
+}
+
+.introduction p {
+	font-family: 'Old Standard TT', serif;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+}
+

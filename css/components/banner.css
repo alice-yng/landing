@@ -1,0 +1,88 @@
+ /* Banner */
+
+.banner {
+	background-image: linear-gradient(-225deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 50%), url(https://media.istockphoto.com/id/1312500032/photo/greeting-card-with-beautiful-rose-petals-macro-with-drop-floating-on-surface-of-the-water.jpg?b=1&s=170667a&w=0&k=20&c=Ft-uOKTnH13xqzZuh8PPCpfj6Bwt1VNu7bRLEq6wtaA=);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	padding: 1px;
+}
+
+.banner h1 {
+	font-size: 130px;
+}
+
+.banner h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.banner p {
+	font-size: 40px;
+}
+
+ /* Barre-menu */
+
+.barre-menu {
+  background-color: #E9D5DA;
+  overflow: hidden;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.barre-menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 140px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.barre-menu a:hover {
+  background-color: #E1D7C6;
+  color: black;
+}
+
+
+ /* sous-banner */
+
+.sous-banner {
+	background-color: #E8D5C4;
+	border: thick double white;
+	font-family: 'Old Standard TT', serif;
+	text-align: center;
+	display: flex;
+
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	margin-bottom: 80px;
+}
+
+.sous-banner h2 {
+	font-size: 30px;
+}
+
+.sous-banner h3 {
+	margin-bottom: 40px;
+}
+
+.sous-banner img {
+	height: 290px;
+	width: 330px;
+	max-width: 100%;
+	flex-grow: 1;
+}
+
+.sous-banner .btn-blue {
+	margin: 30px 50px;
+	background-color: white;
+	color: #E8D5C4;
+	border: solid #D0B8A8; 
+	display: block;
+}
+
+
+

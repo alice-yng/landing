@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Monoton&display=swap');
+
+@import url("components/introduction.css");
+@import url("components/quote.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/informations.css");
+@import url("components/subscription.css");
+
+
+
+body {
+	background-color: #F6F1E9;
+	margin: 0px;
+}
+
+
+.espace img {
+	width:200px;
+	height:170px;
+	margin: 20px auto;
+	display: flex;
+}
+
+
+/*media*/
+
+
+@media (max-width: 960px) {
+	.body {
+		 width: 760px;
+	}
+
+  .sous-banner img {
+  	height: 110px;
+  	width: 110px;
+  }
+  #card-other img {
+  	height: 100px;
+  	width: 80px;
+  }
+
+}
+
+
+@media (max-width: 760px) {
+	.body {
+		 width: 560px;
+	}
+
+  .sous-banner img {
+  	height: 100px;
+  	width: 100px;
+  }
+  #card-other img {
+  	height: 90px;
+  	width: 70px;
+  }
+
+}
+

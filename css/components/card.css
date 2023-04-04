@@ -1,0 +1,95 @@
+
+/* titre: "nos bouquets"*/
+
+h2 {
+	font-family: 'Old Standard TT', serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+/*cards*/
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*card-bouquet*/
+
+.card {
+	background-color: #FFFBF5;
+	padding: 30px;
+	display:flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	flex-basis: 300px;
+	flex-grow: 1;
+} 
+
+.card img {
+	height: 200px;
+	width: 170px;
+	border-radius: 6px;
+}
+
+.card h3 {
+	font-family: 'Tangerine', cursive;
+	font-size: 40px;
+	padding: 40px 30px;
+	margin: 5px 30px 50px 30px;
+}
+
+.card .btn-blue{
+	background-color: #FFD4D4;
+	padding: 15px 20px;
+	border-radius: 4px;
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+/*card-discover-more*/
+
+#card-other {
+	background-color: #FFFBF5;
+	padding: 30px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	margin: 20px 20px 80px 20px;
+}
+
+
+#card-other img {
+	height: 200px;
+	width: 170px;
+	border-radius: 6px;
+
+
+}
+
+#card-other h1 {
+	font-family: 'Tangerine', cursive;
+	font-size: 60px;
+	text-align: center;
+}
+
+#card-other .btn-blue{
+	background-color: #FFD4D4;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+	
+
+	
+
